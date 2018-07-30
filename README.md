@@ -38,13 +38,22 @@ single-file distributions, which are hosted on the following CDNs:
 * [**cdnjs**](https://cdnjs.com/libraries/prop-types)
 ```html
 <!-- development version -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.js"></script>
 
 <!-- production version -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.min.js"></script>
 ```
 
-To load a specific version of `prop-types` replace `15.6.0` with the version number.
+* [**jsDelivr**](https://www.jsdelivr.com/package/npm/prop-types)
+```html
+<!-- development version -->
+<script src="https://cdn.jsdelivr.net/npm/prop-types@15.6/prop-types.js"></script>
+
+<!-- production version -->
+<script src="https://cdn.jsdelivr.net/npm/prop-types@15.6/prop-types.min.js"></script>
+```
+
+To load a specific version of `prop-types` replace `15.6.2` with the version number.
 
 ## Usage
 
